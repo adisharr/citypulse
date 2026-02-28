@@ -1,0 +1,28 @@
+.density { animation: fadeInUp var(--duration-slower) var(--ease-out) both; }
+.density__header { margin-bottom: var(--space-4); }
+.density__title { font-family: var(--font-display); font-size: var(--text-lg); font-weight: 600; }
+.density__subtitle { font-size: var(--text-xs); color: var(--color-text-muted); margin-top: var(--space-1); }
+
+.density__grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 3px;
+  margin-bottom: var(--space-3);
+}
+
+.density__cell {
+  aspect-ratio: 1;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: transform var(--duration-fast), opacity var(--duration-fast);
+}
+.density__cell:hover { transform: scale(1.15); opacity: 1 !important; }
+
+.density__scale {
+  display: flex; align-items: center; gap: var(--space-2);
+  font-size: var(--text-xs); color: var(--color-text-muted);
+}
+.density__scale-bar {
+  flex: 1; height: 4px; border-radius: var(--radius-full);
+  background: linear-gradient(90deg, var(--color-text-muted), var(--color-amber), var(--color-purple), var(--color-cyan));
+}
