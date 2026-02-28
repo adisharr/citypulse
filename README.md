@@ -188,14 +188,3 @@ Custom hooks in `src/hooks/useData.js` abstract data concerns:
 
 ---
 
-## 👩‍💻 About
-
-Built by **Aditi Nitin Shardul** as part of a UI/UX + front-end engineering portfolio.
-
-> Demonstrating: React architecture, data visualization, design systems, responsive layout, accessibility, and user journey thinking.
-
----
-
-## 📄 License
-
-MIT © Aditi Nitin Shardul
